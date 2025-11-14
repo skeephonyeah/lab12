@@ -74,6 +74,7 @@ public class FamilyTree {
 
         FileReader fr = new FileReader(treeFile);
         BufferedReader br = new BufferedReader(fr);
+        
         String line;
         while ((line = br.readLine()) != null)
             addLine(line);
